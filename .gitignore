@@ -1,0 +1,49 @@
+# Node modules
+**/node_modules/
+
+# Logs
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+**/bower_components/
+
+# dotenv environment files
+**/.env
+**/.env.* 
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build output
+frontend/build/
+frontend/dist/
+backend/dist/
+
+# Cache
+**/.cache/
+**/tmp/
+**/temp/
+
+# Test coverage
+**/coverage/
+
+# Others
+*.local
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.pid
+
+# MongoDB dump/backup files (if you export it manually)
+mongodb-dump/
+*.bson
+*.json
